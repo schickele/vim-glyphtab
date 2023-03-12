@@ -1,7 +1,7 @@
 ## vim-glyphtab
 Simple and hackable glyph table a.k.a. character map for Vim written in Python using `tkinter`.
 
-![GlyphTab screenshot](https://github.com/schickele/vim-glyphtab/blob/main/2023-03_glyphtab_kde_plasma.png)
+https://user-images.githubusercontent.com/36489836/224581050-64f936d9-f4b0-4b28-8ebf-9547204e0af5.mp4
 
 I often use special characters in my documents so I made this little widget to help me out. Clicking on an button will insert the character and simultaneously copy it to the system clipboard through `xsel`. Yes, I do use my mouse in Vim.
 
@@ -59,4 +59,4 @@ menu 1.05 PopUp.GlypthTab :so $HOME/.vim/scripts/glyph_tab_py.vim<bar>call Glyph
 
 ### Other OS
 
-Tested briefly under macOS Ventura with MacVim and `python 3.11.2` / `tkinter 8.6.13` but the widget can't close properly and ultimatly crashes MacVim. Apparently `tkinter` is buggy on recent macOS versions. Not tested on Windows.
+Tested briefly under macOS Ventura with MacVim and `python 3.11.2` / `tkinter 8.6.13` but the widget can't close properly and causes MacVim to crash. Apparently `tkinter` is buggy on recent macOS versions. Not tested on Windows.
