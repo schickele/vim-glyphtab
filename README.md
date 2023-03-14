@@ -3,6 +3,8 @@ Simple and hackable glyph table a.k.a. character map for Vim written in Python u
 
 https://user-images.githubusercontent.com/36489836/224581050-64f936d9-f4b0-4b28-8ebf-9547204e0af5.mp4
 
+&nbsp;
+
 I often use special characters in my documents so I made this little widget to help me out. Clicking on an button will insert the character and simultaneously copy it to the system clipboard through `xsel`. Yes, I do use my mouse in Vim.
 
 ### Installation under Ubuntu
