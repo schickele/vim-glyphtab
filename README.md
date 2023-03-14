@@ -26,7 +26,7 @@ cp -v glyph_tab_py.vim ~/.vim/scripts/
 
 ### Usage in Vim
 
-Type this in command mode:
+Type this in normal mode:
 
 ```vim
 :so $HOME/.vim/scripts/glyph_tab_py.vim|call GlyphTab()
